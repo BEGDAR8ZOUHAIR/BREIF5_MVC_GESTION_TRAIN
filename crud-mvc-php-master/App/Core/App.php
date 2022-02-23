@@ -53,7 +53,7 @@ class App
 
     private function render()
     {
-        
+           
         // chaeck if controller is exist
         if(class_exists($this->controller))
         {

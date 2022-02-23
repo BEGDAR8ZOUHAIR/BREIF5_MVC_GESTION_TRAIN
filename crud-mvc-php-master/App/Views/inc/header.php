@@ -34,6 +34,14 @@
         <li class="nav-item">
           <a class="nav-link" href="<?php url('products/add'); ?>"">Add Voyage</a>
         </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="<?php url('products/login'); ?>"">Login</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="<?php url('products/regester'); ?>"">Regester</a>
+        </li>
         
       </ul>
     

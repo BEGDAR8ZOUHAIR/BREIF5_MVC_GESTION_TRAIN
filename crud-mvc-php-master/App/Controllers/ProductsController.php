@@ -120,4 +120,14 @@ class ProductsController extends Controller
             return $this->view('products/delete',$data);
         }
     }
+    
+    public function login()
+    {
+        return $this->view('products/login');
+    }
+     
+    public function regester()
+    {
+        return $this->view('products/regester');
+    }
 }
