@@ -8,6 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/contact.css">
+
 
     <title>train speed</title>
   </head>
@@ -40,7 +42,11 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="<?php url('products/regester'); ?>"">Regester</a>
+          <a class="nav-link " href="<?php url('products/regester'); ?>"">Regester</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="<?php url('products/contact'); ?>"">Contact Us</a>
         </li>
         
       </ul>

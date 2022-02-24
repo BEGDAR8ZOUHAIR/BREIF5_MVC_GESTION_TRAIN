@@ -130,4 +130,9 @@ class ProductsController extends Controller
     {
         return $this->view('products/regester');
     }
+
+    public function contact()
+    {
+        return $this->view('products/contact');
+    }
 }
