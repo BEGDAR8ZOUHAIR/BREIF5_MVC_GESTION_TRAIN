@@ -31,8 +31,11 @@
   
     position: relative;
     top: 150px;
+  } 
+  #contact .m-heading{
+
+    color: aliceblue;
   }
-  
   #contact .title {
     color: rgb(53, 56, 59);
     text-align: center;

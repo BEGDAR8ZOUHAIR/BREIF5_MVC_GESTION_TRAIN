@@ -1,6 +1,6 @@
 
-  <footer class="text-center py-1 bg-light">
-    <p>Copyright &copy; 2022, RentMeNow, All Rights Reserved</p>
+  <footer class="text-center  bg-light mb-9">
+    <p>Copyright &copy; 2022, Train Speed, All Rights Reserved</p>
     
    </footer>
 

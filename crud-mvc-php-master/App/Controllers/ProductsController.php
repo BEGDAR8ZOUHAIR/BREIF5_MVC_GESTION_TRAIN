@@ -73,17 +73,17 @@ class ProductsController extends Controller
     {
         if(isset($_POST['submit']))
         {
-            $name = $_POST['name'];
-            $description = $_POST['description'];
+            $from = $_POST['from'];
+            $to = $_POST['to'];
             $price = $_POST['price'];
-            $qty = $_POST['qty'];
-            $id = $_POST['id'];
+            $availablePlaces = $_POST['availablePlaces'];
+            $id = $_POST['submit'];
 
             $this->conn = new Products();
-            $dataInsert = Array ( "name" => $name ,
-                            "description" => $description ,
+            $dataInsert = Array ( "from" => $from ,
+                            "to" => $to ,
                             "price" => $price ,
-                            "qty" => $qty 
+                            "available places" => $availablePlaces 
                             );
             // data of product
             

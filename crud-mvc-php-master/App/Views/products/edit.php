@@ -16,26 +16,29 @@
 
 
                 <form class="p-5 border mb-5" method="POST" action="<?php url('products/update'); ?>">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" required value="<?php echo $row['name']; ?>" name="name" class="form-control" id="name" >
-                        <input type="hidden" value="<?php echo $row['id']; ?>" name="id">
-                    </div>
-                    <div class="form-group">
-                        <label for="price">Price</label>
-                        <input type="text" required class="form-control" value="<?php echo $row['price']; ?>" name="price" id="price">
+
+                <div class="form-group">
+                        <label for="price">from</label>
+                        <input type="text" required class="form-control" value="<?php echo $row['from']; ?>" name="from" id="price">
+                        
+                    
                     </div>
 
                     <div class="form-group">
-                        <label for="description">Description</label>
-                        <input type="text" required class="form-control" value="<?php echo $row['description']; ?>" name="description" id="description">
+                        <label for="price">to</label>
+                        <input type="text" required class="form-control" value="<?php echo $row['to']; ?>" name="to" id="price">
                     </div>
 
                     <div class="form-group">
-                        <label for="qty">Quantity</label>
-                        <input type="number" required class="form-control" value="<?php echo $row['qty']; ?>" name="qty" id="qty">
+                        <label for="description">price</label>
+                        <input type="number" required class="form-control" value="<?php echo $row['price']; ?>" name="price" id="description">
                     </div>
-                    <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+
+                    <div class="form-group">
+                        <label for="qty">available places</label>
+                        <input type="number" required class="form-control" value="<?php echo $row['available places']; ?>" name="availablePlaces" id="qty">
+                    </div>
+                    <button type="submit" value="<?php echo $row['id']; ?>" name="submit" class="btn btn-primary">Submit</button>
                 </form>
                             
             </div>
